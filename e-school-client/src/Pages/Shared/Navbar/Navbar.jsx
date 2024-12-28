@@ -76,7 +76,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl">
-          Tech School
+          E-School
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

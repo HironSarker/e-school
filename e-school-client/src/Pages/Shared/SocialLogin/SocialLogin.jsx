@@ -4,7 +4,6 @@ import useAuth from "../../../Hooks/useAuth/useAuth";
 
 const SocialLogin = () => {
   const { googleSignIn } = useAuth();
-
   const navigate = useNavigate();
 
   const handleGoogleSignIn = () => {

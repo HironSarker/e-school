@@ -1,10 +1,10 @@
-import FAQBanner from "../../assets/images/banner-faq.png";
+// import FAQBanner from "../../assets/images/banner-faq.png";
 
 const FAQPage = () => {
   return (
     <div>
       <div className=" relative">
-        <img src={FAQBanner} alt="" className=" w-full h-44" />
+        {/* <img src={FAQBanner} alt="" className=" w-full h-44" /> */}
         <div className=" absolute inset-0 left-10 top-10 text-white space-y-3">
           <h2 className=" text-3xl font-bold">FAQ</h2>
           <p>Frequently Asked Questions by Learners</p>
@@ -15,17 +15,16 @@ const FAQPage = () => {
         <h2 className=" text-2xl text-black font-semibold pl-3">
           Course Related
         </h2>
-
         <div className="collapse collapse-plus bg-base-200 border rounded">
           <input type="checkbox" className="peer" />
           <div className="collapse-title text-black border text-lg font-medium">
-            Are Tech School courses Online or Offline?
+            Are E-School courses Online or Offline?
           </div>
           <div className="collapse-content text-black bg-white">
             <p className="pt-3">
-              Tech School is a 100% e-Learning platform and we only provide
-              online courses. We do not provide offline / onsite courses and we
-              do not have any plan in near future to provide such course.
+              E-School is a 100% e-Learning platform and we only provide online
+              courses. We do not provide offline / onsite courses and we do not
+              have any plan in near future to provide such course.
             </p>
           </div>
         </div>

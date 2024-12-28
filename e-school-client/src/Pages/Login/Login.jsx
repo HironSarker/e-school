@@ -75,7 +75,7 @@ const Login = () => {
           />
         </form>
         <p>
-          New to Tech School{" "}
+          New to E-School{" "}
           <Link className="text-primary" to="/signup">
             Create New Account
           </Link>
